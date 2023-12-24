@@ -19,14 +19,14 @@ img.decor {
 img.decor_2.bottom-left {
   left: 0;
   bottom: 0;
-  width: 20%;
+  width: 18%;
   transform: rotate(90deg);
 }
 
 img.decor_2.bottom-right {
   right: 0;
   bottom: 0;
-  width: 20%;
+  width: 18%;
 }
 
 img.decor_2.top-right {
