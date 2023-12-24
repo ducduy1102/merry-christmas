@@ -3,12 +3,8 @@ body {
   margin: 0;
   background: #002b36;
   overflow: hidden;
-  /* display: grid; */
-  /* place-items: center; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  display: grid;
+  place-items: center;
 }
 
 img {
@@ -36,14 +32,14 @@ img.decor_2.bottom-right {
 img.decor_2.top-right {
   right: 0;
   top: 0;
-  width: 20%;
+  width: 17%;
   transform: rotate(270deg);
 }
 
 img.decor_2.top-left {
   left: 0;
   top: 0;
-  width: 20%;
+  width: 17%;
   transform: rotate(180deg);
 }
 
@@ -60,7 +56,7 @@ img.decor_santa-clause {
 }
 
 img.gift {
-  margin-top: -8%;
+  margin-top: -5%;
   margin-bottom: -30%;
   margin-left: -18%;
   width: 12%;
@@ -100,7 +96,7 @@ img.gift {
 }
 
 .xmas-tree {
-  margin-top: 100px;
+  margin-top: 150px;
   position: relative;
   width: 500px;
   height: 590px;
@@ -275,6 +271,8 @@ img.gift {
 
 /* -----------------Message------------------ */
 .container {
+  margin-top: 5%;
+  margin-left: 7%;
   border-radius: 8px;
   margin-right: -800px;
   position: absolute;
