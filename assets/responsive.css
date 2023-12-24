@@ -1,0 +1,138 @@
+/* ---------------Mobile--------------- */
+@media screen and (max-width: 767.98px) {
+  img.decor {
+    margin-top: -130%;
+    width: 65%;
+  }
+
+  img.decor_2.top-right,
+  img.decor_2.top-left {
+    width: 30%;
+  }
+
+  .animated-text {
+    font-size: 30px;
+    margin-top: -100%;
+  }
+
+  img.decor_2.snow_2 {
+    bottom: 0;
+  }
+
+  img.decor_santa-clause {
+    left: 5%;
+    bottom: 10%;
+    width: 65%;
+  }
+
+  img.gift {
+    margin-right: -90%;
+    margin-bottom: -110%;
+    width: 28%;
+  }
+
+  .xmas-tree {
+    position: relative;
+    margin-right: -60%;
+    margin-bottom: -50%;
+    width: 20%;
+  }
+
+  .star {
+    font-size: 30px;
+    left: 56%;
+    top: 16%;
+  }
+
+  .t1 {
+    border-bottom: 50px solid #2bd937;
+    margin-left: -50px;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+  }
+
+  .t2 {
+    border-bottom: 62.5px solid #26bd30;
+    margin-left: -62.5px;
+    border-right: 62.5px solid transparent;
+    border-left: 62.5px solid transparent;
+  }
+
+  .t3 {
+    border-bottom: 75px solid #1f9927;
+    margin-left: -75px;
+    border-right: 75px solid transparent;
+    border-left: 75px solid transparent;
+  }
+
+  .t1::before,
+  .t1::after,
+  .t2::before,
+  .t2::after,
+  .t3::before,
+  .t3::after {
+    width: 5px;
+    height: 10px;
+  }
+
+  .t1::before {
+    top: 38.5px;
+    left: -41px;
+  }
+
+  .t1::after {
+    top: 38.5px;
+    right: -41px;
+  }
+
+  .t2::before {
+    top: 49px;
+    left: -51.5px;
+  }
+
+  .t2::after {
+    top: 49px;
+    right: -51.5px;
+  }
+
+  .t3::before {
+    top: 59px;
+    left: -61px;
+  }
+
+  .t3::after {
+    top: 59px;
+    right: -61px;
+  }
+
+  .stem {
+    top: 46%;
+    margin-left: -10px;
+    width: 20px;
+    height: 50px;
+  }
+
+  .snow-ground {
+    top: 55%;
+  }
+
+  /* -----------------Message------------------ */
+  .container {
+    margin-top: -3%;
+    margin-left: -245%;
+    padding: 10px;
+    width: 50%;
+  }
+
+  .content-message,
+  .festive-text,
+  .title-message {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  .heart {
+    width: 10px;
+    height: 10px;
+  }
+}

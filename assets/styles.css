@@ -1,8 +1,10 @@
 body {
-  height: 100vh;
   margin: 0;
   background: #002b36;
   overflow: hidden;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
   display: grid;
   place-items: center;
 }
