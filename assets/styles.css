@@ -20,10 +20,37 @@ img.decor {
   width: 25%;
 }
 
-img.decor_2 {
+img.decor_2.bottom-left {
+  left: 0;
+  bottom: 0;
+  width: 20%;
+  transform: rotate(90deg);
+}
+
+img.decor_2.bottom-right {
   right: 0;
   bottom: 0;
   width: 20%;
+}
+
+img.decor_2.top-right {
+  right: 0;
+  top: 0;
+  width: 20%;
+  transform: rotate(270deg);
+}
+
+img.decor_2.top-left {
+  left: 0;
+  top: 0;
+  width: 20%;
+  transform: rotate(180deg);
+}
+
+img.decor_2.snow_2 {
+  bottom: -40%;
+  width: 100%;
+  z-index: -5;
 }
 
 img.decor_santa-clause {
@@ -253,7 +280,7 @@ img.gift {
   position: absolute;
   max-width: 400px;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: yellow;
 }
 
 h1 {
