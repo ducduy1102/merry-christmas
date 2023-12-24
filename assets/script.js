@@ -15,3 +15,36 @@ function makeSnow() {
 }
 
 setInterval(makeSnow, 40);
+
+// Get the container element
+var container = document.getElementById("animatedText");
+
+var order = [
+  "m",
+  "e1",
+  "r1",
+  "r2",
+  "y",
+  "c",
+  "h",
+  "r1",
+  "i",
+  "s",
+  "t",
+  "m",
+  "a",
+  "s",
+];
+
+// Function to apply the jumping effect to characters
+function applyJumpEffect() {
+  order.forEach(function (char, index) {
+    var span = container.querySelector("." + char);
+    if (index % 2 === 0) {
+      span.style.animationDelay = index * 0.1 + "s";
+    } else {
+      span.style.animationDelay = (index - 1) * 0.1 + "s";
+    }
+  });
+}
+applyJumpEffect();
